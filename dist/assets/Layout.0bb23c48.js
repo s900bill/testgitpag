@@ -14,10 +14,10 @@ import {
   c as _,
   a as s,
   w as o,
-  F as k,
+  F as b,
   b as V,
-  e as b,
-  f as y,
+  e as k,
+  f,
   t as v,
   h as R,
   i as Y,
@@ -36,15 +36,15 @@ import {
   $ as ne,
   A as se,
   B as ae,
-} from './index.bb2aa403.js'
+} from './index.b73a8ce7.js'
 import { _ as O } from './plugin-vue_export-helper.21dcd24c.js'
-import { U as le } from './UserOutlined.988971df.js'
+import { U as le } from './UserOutlined.23a2f432.js'
 const ie = { class: 'mt-3 text-end' },
   re = z({
     emits: ['close'],
     setup(r, { emit: m }) {
       const u = D(),
-        f = () => {
+        y = () => {
           m('close')
         },
         { t: w, locale: e, availableLocales: d } = X({ useScope: 'global' }),
@@ -58,7 +58,7 @@ const ie = { class: 'mt-3 text-end' },
         return (
           a(),
           _(
-            k,
+            b,
             null,
             [
               s(
@@ -73,16 +73,16 @@ const ie = { class: 'mt-3 text-end' },
                   default: o(() => [
                     (a(!0),
                     _(
-                      k,
+                      b,
                       null,
                       V(
                         R(d),
                         (p) => (
                           a(),
-                          b(
+                          k(
                             S,
                             { key: p, value: p },
-                            { default: o(() => [y(v(p), 1)]), _: 2 },
+                            { default: o(() => [f(v(p), 1)]), _: 2 },
                             1032,
                             ['value']
                           )
@@ -99,8 +99,8 @@ const ie = { class: 'mt-3 text-end' },
               t('div', ie, [
                 s(
                   B,
-                  { type: 'primary', onClick: f },
-                  { default: o(() => [y(v(L.$t('button.confirm')), 1)]), _: 1 }
+                  { type: 'primary', onClick: y },
+                  { default: o(() => [f(v(L.$t('button.confirm')), 1)]), _: 1 }
                 ),
               ]),
             ],
@@ -117,12 +117,12 @@ const ie = { class: 'mt-3 text-end' },
     },
     setup(r) {
       return (m, u) => {
-        const f = i('a-menu-item'),
+        const y = i('a-menu-item'),
           w = i('sub-menu', !0),
           e = i('a-sub-menu')
         return (
           a(),
-          b(
+          k(
             e,
             { key: r.menuInfo.key },
             {
@@ -143,28 +143,28 @@ const ie = { class: 'mt-3 text-end' },
                   6
                 ),
               ]),
-              title: o(() => [y(v(m.$t(r.menuInfo.title)), 1)]),
+              title: o(() => [f(v(m.$t(r.menuInfo.title)), 1)]),
               default: o(() => [
                 (a(!0),
                 _(
-                  k,
+                  b,
                   null,
                   V(
                     r.menuInfo.children,
                     (d) => (
                       a(),
                       _(
-                        k,
+                        b,
                         { key: d.key },
                         [
                           d.children
                             ? (a(),
-                              b(w, { 'menu-info': d, key: d.key }, null, 8, [
+                              k(w, { 'menu-info': d, key: d.key }, null, 8, [
                                 'menu-info',
                               ]))
                             : (a(),
-                              b(
-                                f,
+                              k(
+                                y,
                                 { key: d.key },
                                 {
                                   icon: o(() => [
@@ -176,7 +176,7 @@ const ie = { class: 'mt-3 text-end' },
                                     ),
                                   ]),
                                   default: o(() => [
-                                    y(' ' + v(m.$t(d.title)), 1),
+                                    f(' ' + v(m.$t(d.title)), 1),
                                   ]),
                                   _: 2,
                                 },
@@ -206,8 +206,8 @@ const de = { class: 'vstack h-100 overflow-hidden' },
     emits: ['closedrawer', 'changelanguage'],
     setup(r, { emit: m }) {
       const u = r,
-        f = D(),
-        { userinfo: w } = Z(f),
+        y = D(),
+        { userinfo: w } = Z(y),
         e = $(!0),
         d = (c) => {
           u.expand || (e.value = c)
@@ -277,7 +277,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
         return (
           a(),
           _(
-            k,
+            b,
             null,
             [
               s(
@@ -353,19 +353,19 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                           default: o(() => [
                             (a(),
                             _(
-                              k,
+                              b,
                               null,
                               V(
                                 L,
                                 (n) => (
                                   a(),
                                   _(
-                                    k,
+                                    b,
                                     { key: n.key },
                                     [
                                       n.children
                                         ? (a(),
-                                          b(
+                                          k(
                                             ue,
                                             {
                                               collapsed: e.value,
@@ -378,7 +378,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                             ['collapsed', 'menu-info']
                                           ))
                                         : (a(),
-                                          b(
+                                          k(
                                             U,
                                             {
                                               key: n.key,
@@ -410,7 +410,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                                 ),
                                               ]),
                                               default: o(() => [
-                                                y(' ' + v(c.$t(n.title)), 1),
+                                                f(' ' + v(c.$t(n.title)), 1),
                                               ]),
                                               _: 2,
                                             },
@@ -445,7 +445,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                     { key: 'Profile' },
                                     {
                                       default: o(() => [
-                                        y(v(c.$t('layout.profile')), 1),
+                                        f(v(c.$t('layout.profile')), 1),
                                       ]),
                                       _: 1,
                                     }
@@ -455,7 +455,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                     { key: 'ChangeLanguage' },
                                     {
                                       default: o(() => [
-                                        y(v(c.$t('layout.language')), 1),
+                                        f(v(c.$t('layout.language')), 1),
                                       ]),
                                       _: 1,
                                     }
@@ -466,7 +466,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                     { key: 'Logout' },
                                     {
                                       default: o(() => [
-                                        y(v(c.$t('layout.logout')), 1),
+                                        f(v(c.$t('layout.logout')), 1),
                                       ]),
                                       _: 1,
                                     }
@@ -578,10 +578,10 @@ const de = { class: 'vstack h-100 overflow-hidden' },
       }
     },
   })
-var j = O(ve, [['__scopeId', 'data-v-aec45a06']])
-const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
-  fe = { style: { 'min-height': '100vh' } },
-  ye = {
+var j = O(ve, [['__scopeId', 'data-v-2407a650']])
+const me = (r) => (se('data-v-3b7bc82c'), (r = r()), ae(), r),
+  ye = { style: { 'min-height': '100vh' } },
+  fe = {
     class: 'navbar px-1 py-1 bg-dark position-sticky top-0 d-md-none',
     style: { 'z-index': '2' },
   },
@@ -597,8 +597,8 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
       -1
     )
   ),
-  ke = { style: { width: '60px' }, class: 'd-md-none' },
-  be = { class: 'd-flex h-100' },
+  be = { style: { width: '60px' }, class: 'd-md-none' },
+  ke = { class: 'd-flex h-100' },
   we = { class: 'd-none d-md-block' },
   xe = {
     class:
@@ -612,7 +612,7 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
         m.currentRoute.value.meta.allowBack === !1 && history.go(1)
       }
       const u = $(!1),
-        f = () => {
+        y = () => {
           u.value = !1
         }
       return (w, e) => {
@@ -620,11 +620,11 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
           g = i('a-drawer')
         return (
           a(),
-          _('div', fe, [
-            t('nav', ye, [
+          _('div', ye, [
+            t('nav', fe, [
               t('div', ge, [
                 he,
-                t('div', ke, [
+                t('div', be, [
                   t('span', {
                     id: 'nav_burger',
                     onClick: e[0] || (e[0] = (L) => (u.value = !u.value)),
@@ -632,7 +632,7 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
                 ]),
               ]),
             ]),
-            t('div', be, [
+            t('div', ke, [
               t('div', we, [s(j, { expand: !1 })]),
               t('div', xe, [s(d)]),
             ]),
@@ -644,13 +644,13 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
                 placement: 'left',
                 visible: u.value,
                 bodyStyle: { padding: 0 },
-                onClose: f,
+                onClose: y,
               },
               {
                 default: o(() => [
                   t('div', $e, [
                     u.value
-                      ? (a(), b(j, { key: 0, expand: !0, onClosedrawer: f }))
+                      ? (a(), k(j, { key: 0, expand: !0, onClosedrawer: y }))
                       : N('', !0),
                   ]),
                 ]),
@@ -664,5 +664,5 @@ const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
       }
     },
   })
-var Re = O(Ce, [['__scopeId', 'data-v-1a559f3f']])
+var Re = O(Ce, [['__scopeId', 'data-v-3b7bc82c']])
 export { Re as default }

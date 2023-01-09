@@ -26,7 +26,7 @@ import {
   D as I,
   G as N,
   f as S,
-} from './index.bb2aa403.js'
+} from './index.b73a8ce7.js'
 const T = {
     class:
       'w-100 min-vh-100 d-flex flex-wrap justify-content-center align-items-center',

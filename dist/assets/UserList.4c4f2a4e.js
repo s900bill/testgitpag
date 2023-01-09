@@ -36,8 +36,8 @@ import {
   F as S,
   n as B,
   b as ve,
-} from './index.bb2aa403.js'
-import { U as Y } from './UserOutlined.988971df.js'
+} from './index.b73a8ce7.js'
+import { U as Y } from './UserOutlined.23a2f432.js'
 const me = { class: 'text-center vstack gap-3 py-5 px-2 position-relative' },
   he = { class: 'mx-auto' },
   ge = { class: 'fw-bold fs-4' },
