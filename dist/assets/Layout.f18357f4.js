@@ -11,7 +11,7 @@ import {
   u as X,
   r as i,
   o as a,
-  c as p,
+  c as _,
   a as s,
   w as o,
   F as k,
@@ -36,9 +36,9 @@ import {
   $ as ne,
   A as se,
   B as ae,
-} from './index.b57dc02a.js'
+} from './index.425bee23.js'
 import { _ as O } from './plugin-vue_export-helper.21dcd24c.js'
-import { U as le } from './UserOutlined.2bdfa3bc.js'
+import { U as le } from './UserOutlined.f08798c6.js'
 const ie = { class: 'mt-3 text-end' },
   re = z({
     emits: ['close'],
@@ -57,7 +57,7 @@ const ie = { class: 'mt-3 text-end' },
           B = i('a-button')
         return (
           a(),
-          p(
+          _(
             k,
             null,
             [
@@ -66,29 +66,29 @@ const ie = { class: 'mt-3 text-end' },
                 {
                   value: R(e),
                   'onUpdate:value':
-                    h[0] || (h[0] = (_) => (Y(e) ? (e.value = _) : null)),
+                    h[0] || (h[0] = (p) => (Y(e) ? (e.value = p) : null)),
                   onChange: g,
                 },
                 {
                   default: o(() => [
                     (a(!0),
-                    p(
+                    _(
                       k,
                       null,
                       V(
                         R(d),
-                        (_) => (
+                        (p) => (
                           a(),
                           b(
                             S,
-                            { value: _ },
-                            { default: o(() => [y(v(_), 1)]), _: 2 },
+                            { key: p, value: p },
+                            { default: o(() => [y(v(p), 1)]), _: 2 },
                             1032,
                             ['value']
                           )
                         )
                       ),
-                      256
+                      128
                     )),
                   ]),
                   _: 1,
@@ -146,14 +146,14 @@ const ie = { class: 'mt-3 text-end' },
               title: o(() => [y(v(m.$t(r.menuInfo.title)), 1)]),
               default: o(() => [
                 (a(!0),
-                p(
+                _(
                   k,
                   null,
                   V(
                     r.menuInfo.children,
                     (d) => (
                       a(),
-                      p(
+                      _(
                         k,
                         { key: d.key },
                         [
@@ -242,14 +242,14 @@ const de = { class: 'vstack h-100 overflow-hidden' },
         B = (c) => {
           I.push({ name: c.key.toString() })
         },
-        _ = $(!1),
+        p = $(!1),
         T = (c) => {
           switch (c.key) {
             case 'Profile':
               I.push({ name: 'EditUser', query: { id: w.value.ID } })
               break
             case 'ChangeLanguage':
-              _.value = !0
+              p.value = !0
               break
             case 'Logout':
               ne()
@@ -276,7 +276,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
           Q = i('a-modal')
         return (
           a(),
-          p(
+          _(
             k,
             null,
             [
@@ -292,7 +292,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                   default: o(() => [
                     !e.value && u.expand
                       ? (a(),
-                        p('div', {
+                        _('div', {
                           key: 0,
                           onClick:
                             l[0] ||
@@ -326,7 +326,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                               e.value ? 'opacity :0;display:none' : '',
                               {
                                 transition:
-                                  'display 1s ease-out ,opacity 0.3s linear',
+                                  'display 1s ease-out, opacity 0.3s linear',
                               },
                             ]),
                             class: 'fs-3 fw-bold',
@@ -352,14 +352,14 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                         {
                           default: o(() => [
                             (a(),
-                            p(
+                            _(
                               k,
                               null,
                               V(
                                 L,
                                 (n) => (
                                   a(),
-                                  p(
+                                  _(
                                     k,
                                     { key: n.key },
                                     [
@@ -499,7 +499,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
                                       e.value ? 'opacity :0;' : '',
                                       {
                                         transition:
-                                          'opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s',
+                                          'opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),',
                                       },
                                     ]),
                                   },
@@ -522,7 +522,7 @@ const de = { class: 'vstack h-100 overflow-hidden' },
               u.expand
                 ? N('', !0)
                 : (a(),
-                  p('div', _e, [
+                  _('div', _e, [
                     t(
                       'div',
                       {
@@ -557,14 +557,14 @@ const de = { class: 'vstack h-100 overflow-hidden' },
               s(
                 Q,
                 {
-                  visible: _.value,
-                  'onUpdate:visible': l[7] || (l[7] = (n) => (_.value = n)),
+                  visible: p.value,
+                  'onUpdate:visible': l[7] || (l[7] = (n) => (p.value = n)),
                   title: c.$t('layout.changelanguage'),
                   footer: null,
                 },
                 {
                   default: o(() => [
-                    s(J, { onClose: l[6] || (l[6] = (n) => (_.value = !1)) }),
+                    s(J, { onClose: l[6] || (l[6] = (n) => (p.value = !1)) }),
                   ]),
                   _: 1,
                 },
@@ -578,8 +578,8 @@ const de = { class: 'vstack h-100 overflow-hidden' },
       }
     },
   })
-var j = O(ve, [['__scopeId', 'data-v-2177dc4c']])
-const me = (r) => (se('data-v-68ffd961'), (r = r()), ae(), r),
+var j = O(ve, [['__scopeId', 'data-v-aec45a06']])
+const me = (r) => (se('data-v-1a559f3f'), (r = r()), ae(), r),
   fe = { style: { 'min-height': '100vh' } },
   ye = {
     class: 'navbar px-1 py-1 bg-dark position-sticky top-0 d-md-none',
@@ -620,7 +620,7 @@ const me = (r) => (se('data-v-68ffd961'), (r = r()), ae(), r),
           g = i('a-drawer')
         return (
           a(),
-          p('div', fe, [
+          _('div', fe, [
             t('nav', ye, [
               t('div', ge, [
                 he,
@@ -664,5 +664,5 @@ const me = (r) => (se('data-v-68ffd961'), (r = r()), ae(), r),
       }
     },
   })
-var Re = O(Ce, [['__scopeId', 'data-v-68ffd961']])
+var Re = O(Ce, [['__scopeId', 'data-v-1a559f3f']])
 export { Re as default }

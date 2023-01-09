@@ -13,7 +13,7 @@
     "format": "prettier --write src",
     "backup": "git add . && git commit -m \"chore: backup\" && git push",
     "up": "npx npx npm-check-updates -u",
-    "deploy": "npm run build && node ./deploy/ghpages.js"
+    "deploy": "npm run build && node ./deploy/ghpage.js"
   },
   "dependencies": {
     "@intlify/vite-plugin-vue-i18n": "^3.4.0",
