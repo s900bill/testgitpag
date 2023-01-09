@@ -1,0 +1,119 @@
+{
+  "component": {
+    "search": "Search",
+    "loadingmore": "loading more"
+  },
+  "leasetype": {
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "annually": "Annually"
+  },
+  "button": {
+    "add": "Add",
+    "create": "Create",
+    "delete": "Delete",
+    "remove": "Remove",
+    "edit": "Edit",
+    "update": "Update",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "import": "Import",
+    "back": "Back",
+    "selectall":"Select all"
+  },
+  "upload": {
+    "notimage": "You can only upload image file!",
+    "over2M": "Image must smaller than 2MB!"
+  },
+  "table": {
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "userrole": {
+    "manager": "Manager",
+    "groupmanager": "Group Manager",
+    "user": "User"
+  },
+  "layout": {
+    "name": "Hi {n} !",
+    "logout": "Log out",
+    "home": "Home",
+    "user": "User",
+    "room": "Room",
+    "payment": "Payment",
+    "profile": "Profile",
+    "language": "Language",
+    "changelanguage": "Change Language"
+  },
+  "login": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "account": "Account",
+    "password": "Password",
+    "loginfail":"Account or Password error"
+  },
+  "home": {
+  
+  },
+  "usermanagement": {
+    "grouplist": "Group",
+    "userlist": "List",
+    "usermanagement": "User Management"
+  },
+  "userlist": {
+    "createuser": "Create user",
+    "deleteusers": "Delete {n} users",
+    "delete_title": "Do you want to delete the selected {n} users?",
+    "delete_success": "Successfully deleted user"
+  },
+  "userdetail": {
+    "edit": "Edit User",
+    "delete": "Del User",
+    "delete_title":"Do you want to delete {n}?"
+  },
+  "edituser": {
+    "title": "Edit User",
+    "account": "User Account",
+    "name": "User Name",
+    "description":"Description",
+    "phone": "Phone",
+    "email": "Email",
+    "role": "Role",
+    "room": "Room",
+    "leaseterm": "Lease term",
+    "leasetype": "Lease Type",
+    "rent": "Rent",
+    "changepassword": "Change Password",
+    "currentpassword": "Current Password",
+    "newpassword": "New Password",
+    "confirmpassword": "Re-enter new password",
+    "password": "Password",
+    "successedit": "Successfully updated user information !",
+    "successcreate": "Successfully created user",
+    "createnext": "Create next user",
+    "validate_account_repeat": "User account is required.",
+    "validate_account_require": "User account is repeated.",
+    "validate_name_require": "User Name is required.",
+    "validate_phone": "Please enter a valid phone number.",
+    "validate_email": "Please enter a valid email format.",
+    "validate_password_require": "Password is required.",
+    "validate_currentpassword_require": "Current password is required.",
+    "validate_currentpassword_error": "Password verification failed.",
+    "validate_newpassword_require": "New password is required.",
+    "validate_newpassword_repeat": "New password must be different from current password.",
+    "validate_confirmpassword_require": "Please re-enter new password.",
+    "validate_confirmpassword_error": "Password confirmation does'nt match.",
+    "success_changepassword": "Successfully change password."
+  },
+  "roomlist": {
+    "createroom": "Create room",
+    "deleterooms": "Delete {n} rooms",
+    "delete_title": "Do you want to delete the selected {n} rooms?",
+    "delete_success": "Successfully deleted room"
+  },
+  "404": {
+    "title":"Uh oh, it’s gone!",
+    "info": "This is not the page you were looking for... The link you followed may be broken, or the page was removed. Sorry!",
+    "backhome": "Back to Home"
+  }
+}

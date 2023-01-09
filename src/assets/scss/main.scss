@@ -1,0 +1,176 @@
+$P01: #DD72F0;
+$P02: #C346E6;
+$P03: #AF2BD4;
+$P04: #9916BE;
+
+$I01: #7A77FD;
+$I02: #4E4AFD;
+$I03: #322EEC;
+$I04: #231EE4;
+
+$B01: #4EC2FF;
+$B02: #14A0FF;
+$B03: #147DF0;
+$B04: #0064C8;
+
+$G01: #80F93E;
+$G02: #46F500;
+$G03: #23D70F;
+$G04: #00BE00;
+
+$Y01: #FEEE6C;
+$Y02: #FEE647;
+$Y03: #FEDB0B;
+$Y04: #F4D011;
+
+$R01: #FCA08E;
+$R02: #FF6768;
+$R03: #F74344;
+$R04: #D43040;
+$R05: #AA2633;
+
+$T01: #87919B;
+$T02: #B0BAC3;
+$T03: #CFDAE1;
+$T04: #FFFFFF;
+
+
+$BG01: #1B2026;
+$BG02: #272D35;
+$BG03: #333B44;
+$BG04: #414A54;
+$BG05: #4E5965;
+
+$primarycolor: $T01;
+$alarmcolor: $R04;
+
+
+.bg-dark-01 {
+  background-color: $BG01;
+}
+
+.bg-dark-02 {
+  background-color: $BG02;
+}
+
+.bg-dark-03 {
+  background-color: $BG03;
+}
+
+.bg-dark-04 {
+  background-color: $BG04  !important;
+}
+
+.bg-dark-05 {
+  background-color: $BG05  !important;
+}
+
+.bg-custom-01 {
+
+  background-image: linear-gradient(90deg, $B03 0%, $G03 150%) !important;
+  background-origin: border-box !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+
+}
+
+
+.color-T01 {
+  color: $T01  !important;
+}
+
+.text-hover {
+  &:hover {
+    color: $primarycolor;
+  }
+}
+
+.text-hover-white {
+  &:hover {
+    color: $T04  !important;
+  }
+}
+
+.border-hover {
+  &:hover {
+    border-width: 1px;
+    border-color: $primarycolor  !important;
+  }
+}
+
+.bg-hover {
+  &:hover {
+    background-color: rgba($primarycolor, 0.8) !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.letter-spacing-01 {
+  letter-spacing: 0.1rem;
+}
+
+//for font icon 
+span::before {
+  vertical-align: -2px;
+}
+
+//Icon
+.icon-hover {
+  cursor: pointer;
+  opacity: .8;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &+.disabled {
+    opacity: .15;
+  }
+}
+
+//避免avatar內的svg圖面偏移
+img,
+svg {
+  vertical-align: unset !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 滚动条美化
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lighten($BG04, 10%);
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $BG04;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: lighten($BG03, 35%);
+  border-radius: 4px;
+}
+
+
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url("../font/SourceSansPro-Regular.ttf");
+}

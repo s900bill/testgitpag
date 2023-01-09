@@ -1,0 +1,168 @@
+@import "ant-design-vue/lib/style/themes/dark.less";
+
+@P01: #DD72F0;
+@P02: #C346E6;
+@P03: #AF2BD4;
+@P04: #9916BE;
+
+@I01: #7A77FD;
+@I02: #4E4AFD;
+@I03: #322EEC;
+@I04: #231EE4;
+
+@B01: #4EC2FF;
+@B02: #14A0FF;
+@B03: #147DF0;
+@B04: #0064C8;
+
+@G01: #80F93E;
+@G02: #46F500;
+@G03: #23D70F;
+@G04: #00BE00;
+
+@Y01: #FEEE6C;
+@Y02: #FEE647;
+@Y03: #FEDB0B;
+@Y04: #F4D011;
+
+@R01: #FCA08E;
+@R02: #FF6768;
+@R03: #F74344;
+@R04: #D43040;
+@R05: #AA2633;
+
+@T01: #87919B;
+@T02: #B0BAC3;
+@T03: #CFDAE1;
+@T04: #FFFFFF;
+
+
+@BG01: #1B2026;
+@BG02: #272D35;
+@BG03: #333B44;
+@BG04: #414A54;
+@BG05: #4E5965;
+
+
+
+
+// @padding-lg: 28px;
+// @margin-lg:28px;
+
+@line-height-base: 1;
+//@border-radius-base: 10px;
+@border-color-base: @BG04;
+@border-color-split: @BG04;
+@font-family: SourceSansPro-Regular;
+@black: @BG03;
+
+@popover-background: @BG01;
+@popover-customize-border-color: #3a3a3a;
+@body-background: @black;
+@component-background: @BG03;
+
+
+
+@primary-color: @B03; // primary color for all components
+@success-color: @B02; // success state color
+@warning-color: @Y04; // warning state color
+@error-color: @R03; // error state color
+@font-size-base: 16px; // major text font size
+@heading-color: @T04; // heading text color
+@text-color: @T04; // major text color
+
+
+
+//table
+@table-header-bg: @BG03  !important;
+@table-bg: @BG02;
+@table-row-hover-bg: @BG05  !important;
+
+
+//select
+@select-item-selected-bg: @primary-3;
+@select-item-selected-font-weight: 500;
+@select-item-selected-color: @B01;
+
+
+//menu
+@menu-dark-inline-submenu-bg: @BG01;
+@menu-dark-item-active-bg: @BG02;
+
+
+//card
+@card-radius: 10px;
+
+//modal
+@modal-content-bg:@BG02;
+.ant-modal-content {
+    border-radius: 0.5rem;
+}
+
+
+// @btn-primary-bg: @B03;
+// @btn-danger-bg: @R03;
+// @btn-default-bg: @BG04;
+//button
+.ant-btn {
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #ffffff !important;
+    }
+
+}
+.ant-btn-default {
+    border-color: @BG04  !important;
+    background-color: @BG04  !important;
+    &:hover {
+        background-color: @BG05  !important;
+    }
+
+    &:focus {
+        background-color: @BG04  !important;
+    }
+
+    &:active {
+        background-color: @T01  !important;
+    }
+}
+
+.ant-btn-primary {
+    border-color: @B03  !important;
+    background-color: @B03  !important;
+    &:hover {
+        background-color: @B03 !important;
+    }
+
+    &:focus {
+        background-color: @B04  !important;
+    }
+
+    &:active {
+        background-color: @B04  !important;
+    }
+}
+
+.ant-btn-danger {
+
+    background-color: @R03  !important;
+
+    &:hover {
+        background-color: @R04  !important;
+    }
+
+    &:focus {
+        background-color: @R05  !important;
+    }
+
+    &:active {
+        background-color: @R05  !important;
+    }
+}
+
+.ant-message-custom-content {
+    display: flex;
+    align-items: center;
+}
