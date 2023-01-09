@@ -4,4 +4,5 @@
  * description: v
  * author: s900bill
  */
-var s="/testgitpag/assets/Logo.9c842cd0.svg";export{s as _};
+var s = '/testgitpag/assets/Logo.9c842cd0.svg'
+export { s as _ }
