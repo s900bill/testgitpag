@@ -76772,7 +76772,7 @@ const sde = se({
   }),
   cde = 'modulepreload',
   E4 = {},
-  fde = '/',
+  fde = '/testgitpag/',
   Da = function (e, n) {
     return !n || n.length === 0
       ? e()
@@ -76805,13 +76805,13 @@ const sde = se({
       path: '',
       component: () =>
         Da(
-          () => import('./Layout.0bb23c48.js'),
+          () => import('./Layout.dd14e5e9.js'),
           [
-            'assets/Layout.0bb23c48.js',
-            'assets/Layout.ae6b69a0.css',
+            'assets/Layout.dd14e5e9.js',
+            'assets/Layout.ea91d6c8.css',
             'assets/Logo.0ba490b4.js',
             'assets/plugin-vue_export-helper.21dcd24c.js',
-            'assets/UserOutlined.23a2f432.js',
+            'assets/UserOutlined.f4c43dba.js',
           ]
         ),
       children: [
@@ -76821,11 +76821,11 @@ const sde = se({
           name: 'Home',
           component: () =>
             Da(
-              () => import('./Home.0de5e56d.js'),
+              () => import('./Home.61f6ade0.js'),
               [
-                'assets/Home.0de5e56d.js',
+                'assets/Home.61f6ade0.js',
                 'assets/plugin-vue_export-helper.21dcd24c.js',
-                'assets/UserOutlined.23a2f432.js',
+                'assets/UserOutlined.f4c43dba.js',
               ]
             ),
           meta: { requireAuth: !0 },
@@ -76835,8 +76835,8 @@ const sde = se({
           path: 'UserList',
           component: () =>
             Da(
-              () => import('./UserList.4c4f2a4e.js'),
-              ['assets/UserList.4c4f2a4e.js', 'assets/UserOutlined.23a2f432.js']
+              () => import('./UserList.de6cbbd6.js'),
+              ['assets/UserList.de6cbbd6.js', 'assets/UserOutlined.f4c43dba.js']
             ),
           meta: { requireAuth: !0 },
         },
@@ -76845,11 +76845,11 @@ const sde = se({
           path: 'EditUser',
           component: () =>
             Da(
-              () => import('./EditUser.b54e402c.js'),
+              () => import('./EditUser.2ec4b2e0.js'),
               [
-                'assets/EditUser.b54e402c.js',
-                'assets/LockOutlined.5e6e16f4.js',
-                'assets/UserOutlined.23a2f432.js',
+                'assets/EditUser.2ec4b2e0.js',
+                'assets/LockOutlined.3f9bdde4.js',
+                'assets/UserOutlined.f4c43dba.js',
               ]
             ),
           meta: { requireAuth: !0 },
@@ -76859,11 +76859,11 @@ const sde = se({
           path: 'CreateUser',
           component: () =>
             Da(
-              () => import('./CreateUser.8af3017d.js'),
+              () => import('./CreateUser.2f6cafae.js'),
               [
-                'assets/CreateUser.8af3017d.js',
-                'assets/UserOutlined.23a2f432.js',
-                'assets/LockOutlined.5e6e16f4.js',
+                'assets/CreateUser.2f6cafae.js',
+                'assets/UserOutlined.f4c43dba.js',
+                'assets/LockOutlined.3f9bdde4.js',
               ]
             ),
           meta: { requireAuth: !0 },
@@ -76871,13 +76871,13 @@ const sde = se({
         {
           name: 'RoomList',
           path: 'RoomList',
-          component: () => Da(() => import('./RoomList.abf453e7.js'), []),
+          component: () => Da(() => import('./RoomList.b68a2ef8.js'), []),
           meta: { requireAuth: !0 },
         },
         {
           name: 'PaymentList',
           path: 'PaymentList',
-          component: () => Da(() => import('./PaymentList.6ed8cb7d.js'), []),
+          component: () => Da(() => import('./PaymentList.24d9eeed.js'), []),
           meta: { requireAuth: !0 },
         },
       ],
@@ -76887,15 +76887,15 @@ const sde = se({
       name: 'Login',
       component: () =>
         Da(
-          () => import('./Login.17ab9036.js'),
-          ['assets/Login.17ab9036.js', 'assets/Logo.0ba490b4.js']
+          () => import('./Login.676d4f75.js'),
+          ['assets/Login.676d4f75.js', 'assets/Logo.0ba490b4.js']
         ),
       meta: { requireAuth: !1, allowBack: !1 },
     },
     {
       path: '/404',
       name: 'PageNotExist',
-      component: () => Da(() => import('./404.132f282b.js'), []),
+      component: () => Da(() => import('./404.b2306289.js'), []),
       meta: { requireAuth: !1, allowBack: !1 },
     },
     { path: '/:catchAll(.*)', redirect: '/404' },
@@ -78147,7 +78147,7 @@ async function Nve(t, e, n) {
   })
 }
 var oi = null
-const vw = bce({ history: Rse('/'), routes: dde })
+const vw = bce({ history: Rse('/testgitpag/'), routes: dde })
 vw.beforeEach((t, e, n) => {
   oi === null && (oi = $h())
   const r = () =>

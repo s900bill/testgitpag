@@ -16,7 +16,7 @@ export default defineConfig({
    * 如果生产部署和开发路径不一样，可以在这里动态配置
    * @see https://cn.vitejs.dev/config/#base
    */
-  base: './testgitpag/',
+  base: '/testgitpag/',
 
   /**
    * 本地开发服务，也可以配置接口代理

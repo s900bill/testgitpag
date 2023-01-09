@@ -4,7 +4,7 @@
  * description: v
  * author: s900bill
  */
-import { a as u, C as l } from './index.b73a8ce7.js'
+import { a as u, C as l } from './index.b63768f2.js'
 var s = {
     icon: {
       tag: 'svg',
